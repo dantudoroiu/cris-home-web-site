@@ -20,8 +20,8 @@ const formMessage = document.getElementById('form-message');
 if (form && formMessage) {
   form.addEventListener('submit', (event) => {
     event.preventDefault();
-    const name = form.elements.namedItem('name')?.value || 'Guest';
-    formMessage.textContent = `Thank you, ${name}! We will contact you shortly.`;
+    const name = form.elements.namedItem('name')?.value || 'Oaspete';
+    formMessage.textContent = `Mulțumim, ${name}! Vă vom contacta în curând.`;
     form.reset();
   });
 }
