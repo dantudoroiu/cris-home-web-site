@@ -8,7 +8,7 @@ if (menuToggle && navLinks) {
     navLinks.style.position = 'absolute';
     navLinks.style.top = '70px';
     navLinks.style.right = '1rem';
-    navLinks.style.background = '#14352b';
+    navLinks.style.background = '#2c1c10';
     navLinks.style.padding = '1rem';
     navLinks.style.borderRadius = '0.75rem';
   });
